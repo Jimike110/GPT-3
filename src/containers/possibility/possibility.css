@@ -1,4 +1,6 @@
 .gpt3__possibility {
+  width: 100%;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   column-gap: 2rem;
