@@ -1,46 +1,47 @@
 .gpt3__possibility {
-    display: flex;
-    flex-direction: column;
-    column-gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  column-gap: 2rem;
 }
 
 .gpt3__possibility-image img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .gpt3__possibility-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding-block: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-block: 3rem;
 }
 
 .gpt3__possibility-content * {
-    font-family: var(--font-family);
+  font-family: var(--font-family);
 }
 
 .gpt3__possibility-content h1 {
-    font-weight: 800;
-    font-size: 34px;
-    line-height: 45px;
-    margin-block: 1rem;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  margin-block: 1rem;
 }
 
-.gpt3__possibility-content h4:first-of-type, .gpt3__possibility-content p {
-    color: var(--color-text);
-    line-height: 30px;
+.gpt3__possibility-content h4:first-of-type,
+.gpt3__possibility-content p {
+  color: var(--color-text);
+  line-height: 30px;
 }
 
 .gpt3__possibility-content h4:nth-of-type(2) {
-    color: var(--color-subtext);
-    font-weight: 500;
-    line-height: 30px;
-    margin-block-start: 2rem;
+  color: var(--color-subtext);
+  font-weight: 500;
+  line-height: 30px;
+  margin-block-start: 2rem;
 }
 
 @media screen and (min-width: 1050px) {
-    .gpt3__possibility {
-        flex-direction: row;
-    }
+  .gpt3__possibility {
+    flex-direction: row;
+  }
 }

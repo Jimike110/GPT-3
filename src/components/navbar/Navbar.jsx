@@ -1,10 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/logo.svg";
 import "./navbar.css";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 400,
+    });
+  }, []);
+
   const Menu = () => (
     <>
       <p>
@@ -54,7 +63,7 @@ const Navbar = () => {
           />
         )}
         {toggleMenu && (
-          <div className="gpt3__navbar-menu_container scale-up-center">
+          <div className="gpt3__navbar-menu_container" data-aos="fade-left">
             <div className="gpt3__navbar-menu_container-links">
               <Menu />
             </div>
