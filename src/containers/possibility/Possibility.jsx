@@ -17,14 +17,14 @@ const Possibility = () => {
       </div>
       <div className="gpt3__possibility-content" data-aos="slide-left">
         <h4>Request Early Access to Get Started</h4>
-        <h1 className="gradient__text">
-          The possibilities are beyond your imagination
-        </h1>
+        <h1 className="gradient__text">Unlocking Infinite Potential</h1>
         <p>
-          Yet bed any for travelling assistance indulgence unpleasing. Not
-          thoughts all exercise blessing. Indulgence way everything joy
-          alteration boisterous the attachment. Party we years to order allow
-          asked of.
+          Discover a realm beyond conventional boundaries. Embark on a journey
+          where every facet resonates with the melody of unexplored
+          possibilities. In the symphony of innovation, revel in the joy of
+          transformation and the boisterous attachment to limitless potential.
+          Join a celebration of years where every inquiry is an invitation to an
+          extraordinary experience.
         </p>
         <h4>Request Early Access to Get Started</h4>
       </div>

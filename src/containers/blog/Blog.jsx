@@ -16,25 +16,25 @@ const Blog = () => {
       id: 1,
       url: blog02,
       date: "Sep 25, 2023",
-      title: "GPT-3 and OpenAI is the future. Let us explore how it is.",
+      title: "GPT-3 and OpenAI: Shaping the Future",
     },
     {
       id: 2,
       url: blog03,
       date: "Sep 20, 2023",
-      title: "GPT-3 and OpenAI is the future. Let us explore how it is.",
+      title: "Exploring GPT-3: The Future Unveiled",
     },
     {
       id: 3,
       url: blog04,
       date: "Sep 17, 2023",
-      title: "GPT-3 and OpenAI is the future. Let us explore how it is.",
+      title: "The Power of GPT-3: A Future Perspective",
     },
     {
       id: 4,
       url: blog05,
       date: "Sep 10, 2023",
-      title: "GPT-3 and OpenAI is the future. Let us explore how it is.",
+      title: "GPT-3 and OpenAI: A Glimpse into Tomorrow",
     },
   ];
   return (
@@ -49,7 +49,7 @@ const Blog = () => {
           <Article
             imgUrl={blog01}
             date="Sep 26, 2021"
-            text="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+            text="GPT-3 and Open  AI is the future. Let us exlore how it is"
           />
         </div>
         <div className="gpt3__blog-container_groupB">
