@@ -39,6 +39,7 @@
     width: 189.14px;
     height: 54px;
     font-family: var(--font-family);
+    cursor: pointer;
   }
   
   @media screen and (min-width: 800px) {

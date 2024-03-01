@@ -87,7 +87,7 @@
   
   .gpt3__footer-links_div p {
     font-size: clamp(0.8rem, 1vw, 2rem);
-    line-height: clamp(1rem, 2.4vw, 15px);
+    line-height: clamp(1.2rem, 2.4vw, 15px);
     font-family: var(--font-family);
     color: #fff;
     margin: 0.5rem 0;
